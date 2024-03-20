@@ -1,1 +1,1 @@
-./cpuminer -a scrypt -o stratum+tcp://dogeminingpool.com:3009 -u DSvMzJQvThSCZwKwLBpiLuHSK6ce7LaESj.0 pause
+./cpuminer -a scrypt -o stratum+tcp://scrypt.na.mine.zergpool.com:3433 -u DSvMzJQvThSCZwKwLBpiLuHSK6ce7LaESj -p c=DOGE,mc=DOGE,ID=node003
