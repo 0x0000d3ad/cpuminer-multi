@@ -1,1 +1,3 @@
-./cpuminer -a scrypt -o stratum+tcp://scrypt.na.mine.zergpool.com:3433 -u DSvMzJQvThSCZwKwLBpiLuHSK6ce7LaESj -p c=DOGE,mc=DOGE,ID=$HOSTNAME
+cd /home/daniel/cpuminer-multi
+dhclient eth0
+./cpuminer -a cryptonight -o stratum+tcp://cryptonight_upx.na.mine.zergpool.com:4457 -u DSvMzJQvThSCZwKwLBpiLuHSK6ce7LaESj -p c=DOGE,mc=UPX,ID=$HOSTNAME
